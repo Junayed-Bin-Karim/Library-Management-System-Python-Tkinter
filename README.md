@@ -1,77 +1,65 @@
-Library Management System (Python Tkinter)
+# Library Management System (Python Tkinter)
 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 
 A simple Library Management System built using Python's Tkinter for the GUI and PyMySQL for MySQL database interaction. This system allows librarians and students to manage books and borrowing activities efficiently.
 
-Table of Contents
-Features
+---
 
-Prerequisites
+## Table of Contents
 
-Installation
+- [Features](#features)  
+- [Prerequisites](#prerequisites)  
+- [Installation](#installation)  
+- [Database Setup](#database-setup)  
+- [Usage](#usage)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)  
 
-Database Setup
+---
 
-Usage
+## Features
 
-Contributing
+**Student/Librarian Functionalities:**
 
-License
+- **Login:** Secure login for both students and librarians  
+- **Donate Book:** Add new books to the database  
+- **Apply Book:** Request to borrow available books  
+- **Return Book:** Return borrowed books (late returns may include penalties)  
+- **View Books:** View all books available in the library  
+- **Applied Books:** Check currently borrowed books  
+- **Logout:** Safely logout of the session  
 
-Contact
+**Admin Functionalities (use "admin" credentials):**
 
-Features
-Student/Librarian Functionalities:
+- **Add Student:** Register new students  
+- **View Students:** Display a list of all registered students  
+- **Delete Student:** Remove a student account  
+- **Add Book (Admin):** Add books from the admin panel  
+- **View Books (Admin):** View books from the admin perspective  
+- **Delete Book:** Remove books from the database  
+- **Logout (Admin):** Securely log out of the admin panel  
 
-Login: Secure login for both students and librarians
+---
 
-Donate Book: Add new books to the database
+## Prerequisites
 
-Apply Book: Request to borrow available books
-
-Return Book: Return borrowed books (late returns may include penalties)
-
-View Books: View all books available in the library
-
-Applied Books: Check currently borrowed books
-
-Logout: Safely logout of the session
-
-Admin Functionalities (use "admin" credentials):
-
-Add Student: Register new students
-
-View Students: Display a list of all registered students
-
-Delete Student: Remove a student account
-
-Add Book (Admin): Add books from the admin panel
-
-View Books (Admin): View books from the admin perspective
-
-Delete Book: Remove books from the database
-
-Logout (Admin): Securely log out of the admin panel
-
-Prerequisites
 Make sure the following dependencies are installed:
 
-Python 3.x
-Download from python.org
+- **Python 3.x**  
+  [Download from python.org](https://www.python.org/downloads/)
 
-PyMySQL
-Install using pip:
-
-bash
-Copy
-Edit
-pip install pymysql
+- **PyMySQL**  
+  Install using pip:  
+  ```bash
+  pip install pymysql
 MySQL Server
 A running MySQL instance is required. You can download it from the MySQL official site.
 
 Installation
-Clone the Repository (if available on GitHub):
+Clone the Repository:
 
 bash
 Copy
@@ -111,8 +99,7 @@ Usage
 Run the App:
 
 bash
-Copy
-Edit
+
 python library_app.py
 Login Screen:
 
@@ -141,4 +128,7 @@ This project is licensed under the MIT License.
 
 Contact
 If you have questions, feedback, or need assistance, feel free to reach out:
-[Add your email or GitHub profile link here]
+
+GitHub: https://github.com/Junayed-Bin-Karim
+
+LinkedIn: https://www.linkedin.com/in/junayed-bin-karim-47b755270/
