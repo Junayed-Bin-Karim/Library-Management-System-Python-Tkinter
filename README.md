@@ -88,7 +88,7 @@ Password: (empty)
 Note: For production, create a dedicated user with proper permissions.
 Update the connectdb() function in the Python script if your credentials differ.
 
-Table Creation:
+## Table Creation:
 When you run the app, it will automatically create the required tables:
 
 Login
@@ -122,8 +122,6 @@ Push to your fork
 
 Submit a pull request
 
-License
-This project is licensed under the MIT License.
 
 ### Contact
 If you have questions, feedback, or need assistance, feel free to reach out:
