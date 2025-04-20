@@ -55,17 +55,19 @@ Make sure the following dependencies are installed:
   Install using pip:  
   ```bash
   pip install pymysql
-MySQL Server
-A running MySQL instance is required. You can download it from the MySQL official site.
+## MySQL Server
 
-Installation
-Clone the Repository:
+A running MySQL instance is required. You can download it from the [MySQL official site](https://dev.mysql.com/downloads/).
 
-bash
-Copy
-Edit
+---
+
+## Installation
+
+### Clone the Repository:
+```bash
 git clone [repository URL]
 cd [project directory]
+```
 Save the Application Code:
 Save the provided code as library_app.py.
 
@@ -73,9 +75,8 @@ Database Setup
 Create the Database:
 Open your MySQL client (Workbench or CLI) and execute:
 
-sql
-Copy
-Edit
+## sql
+
 CREATE DATABASE IF NOT EXISTS Library;
 User Credentials:
 The script connects using:
@@ -84,10 +85,11 @@ Username: root
 
 Password: (empty)
 
-Note: For production, create a dedicated user with proper permissions. Update the connectdb() function in the Python script if your credentials differ.
+Note: For production, create a dedicated user with proper permissions.
+Update the connectdb() function in the Python script if your credentials differ.
 
 Table Creation:
-When you run the app, it will automatically create required tables:
+When you run the app, it will automatically create the required tables:
 
 Login
 
@@ -96,21 +98,18 @@ Book
 BookIssue
 
 Usage
-Run the App:
 
-bash
-
+### Run the App:
 python library_app.py
 Login Screen:
-
-Student Login: Use your student ID and password (added by admin)
+Student Login: Use your Student ID and Password (added by admin)
 
 Admin Login: Use credentials admin / admin
 
 Navigate:
-Use the buttons to manage books, apply/return, and more.
+Use the buttons to manage books, apply/return books, and more.
 
-Contributing
+###   Contributing
 Contributions are welcome. To contribute:
 
 Fork the repository
@@ -126,7 +125,7 @@ Submit a pull request
 License
 This project is licensed under the MIT License.
 
-Contact
+### Contact
 If you have questions, feedback, or need assistance, feel free to reach out:
 
 GitHub: https://github.com/Junayed-Bin-Karim
