@@ -1,9 +1,9 @@
 # Library Management System (Python Tkinter)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 
-A simple Library Management System built using Python's Tkinter for the GUI and PyMySQL for MySQL database interaction. This system allows librarians and students to manage books and borrowing activities efficiently.
+This is a simple Library Management System built using Python's Tkinter library for the graphical user interface and PyMySQL for database interaction. It allows librarians and students to manage books and borrowing activities.
 
 ---
 
