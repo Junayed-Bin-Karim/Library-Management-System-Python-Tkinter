@@ -1,10 +1,10 @@
-# 📚 Library Management System
+# Library Management System
 
-## 📖 Overview
+##  Overview
 
 This is a simple Library Management System implemented in Python using Tkinter and MySQL. It empowers users to donate books, apply for books, return books, and explore information about books. The system also features an admin section for managing students and books.
 
-## ✨ Features
+##  Features
 
 - **User Section:**
   - Donate books
@@ -21,13 +21,13 @@ This is a simple Library Management System implemented in Python using Tkinter a
   - View books
   - Delete books
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.x
 - Tkinter library
 - MySQL database
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository:**
 
@@ -49,20 +49,5 @@ This is a simple Library Management System implemented in Python using Tkinter a
    ```bash
    python <file_location>
 
-✨ Contributors
-- Sourabh Salvi
-- Anirudhha Pednekar
-- Aryaman Sawant
 
-🤝 Contributing:
-- Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-📝 License
-This project is licensed under the [MIT License](LICENSE).
-
-## ❤️ Support
-
-If you find my work helpful or interesting, consider buying me a coffee! You can support me through the following platforms:
-
-- [Buy me a Coffee](https://www.buymeacoffee.com/atblastdon)
-- UPI ID: `atanything@ybl`
