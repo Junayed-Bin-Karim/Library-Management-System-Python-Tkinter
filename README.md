@@ -65,8 +65,7 @@ A running MySQL instance is required. You can download it from the [MySQL offici
 
 ### Clone the Repository:
 ```bash
-git clone [repository URL]
-cd [project directory]
+git clone [git@github.com:Junayed-Bin-Karim/Library-Management-System-Python-Tkinter.git]
 ```
 Save the Application Code:
 Save the provided code as library_app.py.
